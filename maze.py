@@ -139,3 +139,6 @@ class Maze:
 			cell.draw_move(self._cells[i][j + 1], True)
 
 		return False
+	
+	def solve(self):
+		return self._solve(0, 0)
